@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="sol_to_svg_2010.xsl"?>
+<sistemaEstelar versao="2.0" dataAtualizacao="2010-12-18">
+    <centro>
+        <estrela nome="Sol" diametrokm="1390000" cor="amarela" massaKg="1.98892e30">
+            <imagem href="sun.jpg" />
+        </estrela>
+    </centro>
+    <orbita raioMedUA="0.387">
+        <planeta id="p1" nome="Mercúrio" diametrokm="4879" perielioUA="0.3075" afelioUA="0.4667" periodoOrbitalD="87.97" periodoRotacaoSideralH="1407.5" inclinacaoAxial="0.01" massaKg="3.301e23">
+            <imagem href="mercury.jpg" />
+        </planeta>
+    </orbita>
+    <orbita raioMedUA="0.723">
+        <planeta id="p2" nome="Venus" diametrokm="12104" perielioUA="0.718" afelioUA="0.728" periodoOrbitalD="224.7" periodoRotacaoSideralH="-243" inclinacaoAxial="177.3" massaKg="4.867e24">
+            <imagem href="venus.jpg" />
+        </planeta>
+    </orbita>
+    <orbita raioMedUA="1">
+        <planeta id="p3" nome="Terra" diametrokm="12756" perielioUA="0.9833" afelioUA="1.0167" periodoOrbitalD="365.25636" periodoRotacaoSideralH="23.93447" inclinacaoAxial="23.4394" massaKg="5.972e24">
+            <imagem href="earth.jpg" />
+            <satelite id="p3.1"  nome="Lua"  diametrokm="3475"   raioMedOrbitakm="384400" massaKg="7.346e22" >
+                <imagem href="moon.jpg"></imagem>
+            </satelite>  
+        </planeta>
+    </orbita>
+    <orbita raioMedUA="1.52">
+        <planeta id="p4" nome="Marte" diametrokm="6794" perielioUA="1.381" afelioUA="1.666" periodoOrbitalD="686.97" periodoRotacaoSideralH="24.623" inclinacaoAxial="25.19" massaKg="6.417e23">
+            <imagem href="mars.jpg" />
+            <satelite id="p4.1"  nome="Phobos"  diametrokm="11.2"  raioMedOrbitakm="9380"  anoDescobrimento="1877" descobertoPor="Asaph Hall" />   
+            <satelite id="p4.2"  nome="Deimos"  diametrokm="6.4"   raioMedOrbitakm="23460" anoDescobrimento="1877" descobertoPor="Asaph Hall" />    
+        </planeta>
+    </orbita>
+    <orbita raioMedUA="2.75" nome="Cinturão de Asteroides">
+        <planeta-anao id="a1"  nome="Ceres"     diametrokm="952" perielioUA="2.547" afelioUA="2.996" periodoOrbitalD="1680" inclinacaoAxial="4" massaKg="9.3e20" anoDescobrimento="1801" descobertoPor="Guiseppe Piazzi" >
+            <imagem href="ceres.jpg" />
+        </planeta-anao>
+  
+  	    <asteroide id="a2"    nome="Pallas"     diametrokm="522" perielioUA="2.132" afelioUA="3.412" periodoOrbitalD="1686"   massaKg="2e20" anoDescobrimento="1802" descobertoPor="Heinrich Olbers" /> 
+        <asteroide id="a3"    nome="Juno"       diametrokm="258" perielioUA="1.988" afelioUA="3.353" periodoOrbitalD="1595.4" anoDescobrimento="1804" descobertoPor="Karl Ludwig Harding" /> 
+        <asteroide id="a4"    nome="Vesta"      diametrokm="529" perielioUA="2.151" afelioUA="5.572" periodoOrbitalD="1325.2" massaKg="2.6e20" anoDescobrimento="1807" descobertoPor="Heinrich Olbers" />
+        <asteroide id="a5"    nome="Astréia"    diametrokm="119" perielioUA="2.077" afelioUA="3.070" periodoOrbitalD="1507.7" anoDescobrimento="1903" descobertoPor="Karl Ludwig Hencke" />
+        <asteroide id="a6"    nome="Hebe"       diametrokm="186" perielioUA="1.937" afelioUA="2.914" periodoOrbitalD="1379.8" anoDescobrimento="1847" descobertoPor="Karl Ludwig Hencke" /> 
+        <asteroide id="a7"    nome="Iris"       diametrokm="213" perielioUA="1.833" afelioUA="2.937" periodoOrbitalD="1347.8" anoDescobrimento="1847" descobertoPor="John Russell Hind" /> 
+        <asteroide id="a8"    nome="Flora"      diametrokm="128" perielioUA="1.858" afelioUA="2.546" periodoOrbitalD="1193"   anoDescobrimento="1903" descobertoPor="John Russell Hind" /> 
+        <asteroide id="a9"    nome="Métis"      diametrokm="190" perielioUA="2.096" afelioUA="2.678" periodoOrbitalD="1346.8" anoDescobrimento="1848" descobertoPor="Andrew Graham" /> 
+        <asteroide id="a10"   nome="Higiéia"    diametrokm="431" perielioUA="2.77"  afelioUA="3.507" periodoOrbitalD="2031"   anoDescobrimento="1849" descobertoPor="Annibale de Gasparis" /> 
+        <asteroide id="a11"   nome="Parthenope" diametrokm="153" perielioUA="2.208" afelioUA="2.697" periodoOrbitalD="1402.9" anoDescobrimento="1850" descobertoPor="Annibale de Gasparis" />  
+        <asteroide id="a12"   nome="Victoria"   diametrokm="113" perielioUA="1.819" afelioUA="2.849" periodoOrbitalD="1302.4" anoDescobrimento="1850" descobertoPor="John Russell Hind" /> 
+        <asteroide id="a13"   nome="Egéria"     diametrokm="206" perielioUA="2.358" afelioUA="2.794" periodoOrbitalD="1510"   anoDescobrimento="1850" descobertoPor="Annibale de Gasparis" /> 
+        <asteroide id="a14"   nome="Irene"      diametrokm="152" perielioUA="2.150" afelioUA="3.020" periodoOrbitalD="1518.2" anoDescobrimento="1851" descobertoPor="John Russell Hind" /> 
+        <asteroide id="a15"   nome="Eunomia"    diametrokm="272" perielioUA="2.149" afelioUA="3.138" periodoOrbitalD="1569.7" anoDescobrimento="1851" descobertoPor="Annibale de Gasparis" /> 
+        <asteroide id="a16"   nome="Psyque"     diametrokm="264" perielioUA="2.513" afelioUA="3.328" periodoOrbitalD="1823"   anoDescobrimento="1852" descobertoPor="Annibale de Gasparis" /> 
+        <asteroide id="a17"   nome="Tétis"      diametrokm="90"  perielioUA="2.139" afelioUA="2.801" periodoOrbitalD="1418"   anoDescobrimento="1852" descobertoPor="Robert Luther " />
+        <asteroide id="a18"   nome="Melpomene"  diametrokm="141" perielioUA="1.795" afelioUA="2.797" periodoOrbitalD="1270.6" anoDescobrimento="1852" descobertoPor="John Russell Hind" />
+        <asteroide id="a19"   nome="Fortuna"    diametrokm="225" perielioUA="2.052" afelioUA="2.831" periodoOrbitalD="1393.4" anoDescobrimento="1852" descobertoPor="John Russell Hind" /> 
+        <asteroide id="a20"   nome="Massália"   diametrokm="145" perielioUA="2.064" afelioUA="2.753" periodoOrbitalD="1365.3" anoDescobrimento="1852" descobertoPor="Annibale de Gasparis" />
+        <asteroide id="a21"   nome="Lutécia"    diametrokm="100" perielioUA="2.036" afelioUA="2.834" periodoOrbitalD="1387.9" anoDescobrimento="1852" descobertoPor="Hermann Goldschmidt" />
+        <asteroide id="a24"   nome="Temis"      diametrokm="198" perielioUA="2.719" afelioUA="3.539" periodoOrbitalD="2021"   anoDescobrimento="1853" descobertoPor="Annibale de Gasparis" />
+        <asteroide id="a29"   nome="Anfritite"  diametrokm="212" perielioUA="2.369" afelioUA="2.739" periodoOrbitalD="1491"   anoDescobrimento="1854" descobertoPor="Albert Marth" /> 
+        <asteroide id="a31"   nome="Eufrosine"  diametrokm="256" perielioUA="2.438" afelioUA="3.861" periodoOrbitalD="2041.6" anoDescobrimento="1854" descobertoPor="James Ferguson" /> 
+        <asteroide id="a38"   nome="Leda"       diametrokm="116" perielioUA="2.328" afelioUA="3.159" periodoOrbitalD="1660"   anoDescobrimento="1856" descobertoPor="Jean Chacornac" />
+        <asteroide id="a45"   nome="Eugênia"    diametrokm="213" perielioUA="2.497" afelioUA="2.943" periodoOrbitalD="1638.5" anoDescobrimento="1857" descobertoPor="Hermann Goldschmidt" >
+            <satelite id="s1998.45.1" nome="Petit-Prince"      diametrokm="13"   raioMedOrbitakm="-1"  anoDescobrimento="1998" descobertoPor="Canada-France-Hawaii Telescope" />
+            <satelite id="s2004.45.2" nome="S/2004 45 1"       diametrokm="6"    raioMedOrbitakm="-1"  anoDescobrimento="2007" descobertoPor="ESO" />
+        </asteroide> 
+        <asteroide id="a48"   nome="Doris"      diametrokm="222" perielioUA="2.877" afelioUA="3.343" periodoOrbitalD="2003.4" anoDescobrimento="1857" descobertoPor="Hermann Goldschmidt" /> 
+        <asteroide id="a52"   nome="Europa"     diametrokm="301" perielioUA="2.785" afelioUA="3.417" periodoOrbitalD="1994.6" anoDescobrimento="1858" descobertoPor="Hermann Goldschmidt" /> 
+        <asteroide id="a53"   nome="Kalypso"    diametrokm="115" perielioUA="2.086" afelioUA="3.154" periodoOrbitalD="1549"   anoDescobrimento="1858" descobertoPor="Robert Luther" />
+        <asteroide id="a55"   nome="Pandora"    diametrokm="67"  perielioUA="2.359" afelioUA="3.158" periodoOrbitalD="1673"   anoDescobrimento="1858" descobertoPor="George Mary Searle" />
+        <asteroide id="a65"   nome="Cibele"     diametrokm="273" perielioUA="3.073" afelioUA="3.794" periodoOrbitalD="2323.5" anoDescobrimento="1861" descobertoPor="Ernst Wilhelm Tempel" /> 
+        <asteroide id="a87"   nome="Sylvia"     diametrokm="286" perielioUA="3.213" afelioUA="3.768" periodoOrbitalD="2381.7" anoDescobrimento="1866" descobertoPor="Norman Robert Pogson" /> 
+        <asteroide id="a88"   nome="Tisbe"      diametrokm="232" perielioUA="2.312" afelioUA="3.224" periodoOrbitalD="1681.7" anoDescobrimento="1866" descobertoPor="Christian Peters" /> 
+        <asteroide id="a94"   nome="Aurora"     diametrokm="197" perielioUA="2.883" afelioUA="3.435" periodoOrbitalD="2050.8" anoDescobrimento="1867" descobertoPor="James Craig Watson" /> 
+        <asteroide id="a107"  nome="Camila"     diametrokm="215" perielioUA="3.204" afelioUA="3.750" periodoOrbitalD="2368.1" anoDescobrimento="1868" descobertoPor="Norman Robert Pogson"> 
+            <satelite id="s2001.107.1" nome="S2001 107 1"  diametrokm="11"    raioMedOrbitakm="1235"  anoDescobrimento="2001" descobertoPor="A Storrs, F. Villas, R. Landis, E. Wells, C. Woods, B. Zellner, M. Gaffey" />
+        </asteroide>
+        <asteroide id="a121"  nome="Hermione"   diametrokm="190" perielioUA="2.98"  afelioUA="3.93"  periodoOrbitalD="2347.9" anoDescobrimento="1872" descobertoPor="James Craig Watson" >
+            <satelite id="s121.1" nome="Lafayette"       diametrokm="13"    raioMedOrbitakm="-1"  anoDescobrimento="2002" descobertoPor="Keck II" />
+        </asteroide> 
+        <asteroide id="a140"  nome="Siwa"       diametrokm="110" perielioUA="2.141" afelioUA="3.324" periodoOrbitalD="1650" anoDescobrimento="1874" descobertoPor="Johann Palisa" />
+        <asteroide id="a243"  nome="Ida"        diametrokm="45"  perielioUA="2.732" afelioUA="2.991" periodoOrbitalD="1768.1" anoDescobrimento="1884" descobertoPor="Johann Palisa" >
+            <satelite id="s1994.243.1" nome="Dactil"       diametrokm="1.5"    raioMedOrbitakm="90"  anoDescobrimento="1994" descobertoPor="Galileo Project" />
+        </asteroide> 
+        <asteroide id="a253"  nome="Matilda"    diametrokm="16"  perielioUA="1.942" afelioUA="3.351" periodoOrbitalD="1572.8" anoDescobrimento="1885" descobertoPor="Johann Palisa" />
+        <asteroide id="a324"  nome="Bamberga"   diametrokm="229" perielioUA="1.775" afelioUA="3.591" periodoOrbitalD="1605.4" anoDescobrimento="1892" descobertoPor="Johann Palisa" /> 
+        <asteroide id="a375"  nome="Úrsula"     diametrokm="216" perielioUA="2.789" afelioUA="3.46"  periodoOrbitalD="2017.3" anoDescobrimento="1893" descobertoPor="Auguste Charlois" /> 
+        <asteroide id="a423"  nome="Diotima"    diametrokm="209" perielioUA="2.941" afelioUA="3.191" periodoOrbitalD="1961"   anoDescobrimento="1896" descobertoPor="Auguste Charlois" /> 
+        <asteroide id="a433"  nome="Eros"       diametrokm="12"  perielioUA="1.133" afelioUA="1.783" periodoOrbitalD="643.2"  anoDescobrimento="1898" descobertoPor="Carl Gustav Witt" /> 
+        <asteroide id="a451"  nome="Patientia"  diametrokm="225" perielioUA="2.823" afelioUA="3.295" periodoOrbitalD="1954.2" anoDescobrimento="1899" descobertoPor="Auguste Charlois" /> 
+        <asteroide id="a511"  nome="Davida"     diametrokm="289" perielioUA="2.58"  afelioUA="3.754" periodoOrbitalD="2058.4" anoDescobrimento="1903" descobertoPor="R. S. Dugan" /> 
+        <asteroide id="a532"  nome="Herculina"  diametrokm="222" perielioUA="2.29"  afelioUA="3.26"  periodoOrbitalD="1687.5" anoDescobrimento="1904" descobertoPor="Max Wolf" /> 
+        <asteroide id="a704"  nome="Interamnia" diametrokm="326" perielioUA="2.601" afelioUA="3.522" periodoOrbitalD="1957.5" anoDescobrimento="1910" descobertoPor="Vincenzo Cerulli" />  
+    </orbita>
+    <orbita  raioMedUA="5.2">
+        <planeta id="p5" nome="Júpiter" diametrokm="142984" perielioUA="4.95" afelioUA="5.46" periodoOrbitalD="4331.6" periodoRotacaoSideralH="9.925" inclinacaoAxial="3.13" massaKg="1.899e27">
+            <imagem href="jupiter.jpg" />
+            <satelite id="p5.1"   nome="Métis"      diametrokm="40"   raioMedOrbitakm="127690"    anoDescobrimento="1979" descobertoPor="Voyager 1" />  
+            <satelite id="p5.2"   nome="Adrastéa"   diametrokm="11"   raioMedOrbitakm="128690"    anoDescobrimento="1979" descobertoPor="Voyager 2" />  
+            <satelite id="p5.3"   nome="Amaltéa"    diametrokm="110"  raioMedOrbitakm="181366"    anoDescobrimento="1892" descobertoPor="Edward Emerson Barnard" />  
+            <satelite id="p5.4"   nome="Tebas"      diametrokm="50"   raioMedOrbitakm="221889"    anoDescobrimento="1979" descobertoPor="Voyager 1" />  
+            <satelite id="p5.5"   nome="Io"         diametrokm="3630" raioMedOrbitakm="421700"    massaKg="8.93e22"  anoDescobrimento="1610" descobertoPor="Galileo Galilei">
+            	<imagem href="io.jpg" />
+            </satelite>
+            <satelite id="p5.6"   nome="Europa"     diametrokm="3122" raioMedOrbitakm="671034"    massaKg="4.8e22"  anoDescobrimento="1610" descobertoPor="Galileo Galilei">
+            	<imagem href="europa.jpg" />
+            </satelite>  
+            <satelite id="p5.7"   nome="Ganimede"   diametrokm="5262" raioMedOrbitakm="1070412"   massaKg="1.48e23"  anoDescobrimento="1610" descobertoPor="Galileo Galilei">
+            	<imagem href="ganymede.jpg" />
+            </satelite>  
+            <satelite id="p5.8"   nome="Calisto"    diametrokm="4820" raioMedOrbitakm="1882709"   massaKg="1.08e23"  anoDescobrimento="1610" descobertoPor="Galileo Galilei">
+            	<imagem href="callisto.jpg" />
+            </satelite>  
+            <satelite id="p5.9"   nome="Themisto"   diametrokm="8"    raioMedOrbitakm="7393216"   anoDescobrimento="2000" descobertoPor="Charles Kowal, Elizabeth Roemer, Scott Sheppard et al" />  
+            <satelite id="p5.10"  nome="Leda"       diametrokm="16"   raioMedOrbitakm="11187781"  anoDescobrimento="1974" descobertoPor="Charles Kowal" />  
+            <satelite id="p5.11"  nome="Himalia"    diametrokm="170"  raioMedOrbitakm="11451971"  anoDescobrimento="1904" descobertoPor="Charles Perrine" />  
+            <satelite id="p5.12"  nome="Lysithea"   diametrokm="36"   raioMedOrbitakm="11740560"  anoDescobrimento="1938" descobertoPor="Seth Barnes Nicholson" />  
+            <satelite id="p5.13"  nome="Elara"      diametrokm="86"   raioMedOrbitakm="11778034"  anoDescobrimento="1905" descobertoPor="Charles Perrine" />  
+            <satelite id="p5.14"  nome="S/2000 J11" diametrokm="4"    raioMedOrbitakm="12570424"  anoDescobrimento="2000" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.29"  nome="Carpo"      diametrokm="3"    raioMedOrbitakm="17144873"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.30"  nome="S/2003 J12" diametrokm="1"    raioMedOrbitakm="17739539"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.31"  nome="Euporie"    diametrokm="2"    raioMedOrbitakm="19088434"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.64"  nome="S/2003 J3"  diametrokm="2"    raioMedOrbitakm="19621780"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.32"  nome="S/2003 J18" diametrokm="2"    raioMedOrbitakm="19812577"  anoDescobrimento="2003" descobertoPor="Brett Gladman, John Kavelaars, et al." />
+            <satelite id="p5.33"  nome="Thelxinoe"  diametrokm="2"    raioMedOrbitakm="20453753"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.34"  nome="Euanthe"    diametrokm="3"    raioMedOrbitakm="20464854"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.15"  nome="Helike"     diametrokm="4"    raioMedOrbitakm="20540266"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.35"  nome="Orthosie"   diametrokm="2"    raioMedOrbitakm="20567971"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.36"  nome="Jocasta"    diametrokm="5"    raioMedOrbitakm="20722566"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.37"  nome="S/2003 J16" diametrokm="2"    raioMedOrbitakm="20743779"  anoDescobrimento="2003" descobertoPor="Brett Gladman, John Kavelaars, et al." />
+            <satelite id="p5.16"  nome="Praxidike"  diametrokm="7"    raioMedOrbitakm="20823948"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.17"  nome="Harpalyke"  diametrokm="4"    raioMedOrbitakm="21063814"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.38"  nome="Mneme"      diametrokm="2"    raioMedOrbitakm="21129786"  anoDescobrimento="2003" descobertoPor="Brett Gladman, John Kavelaars, et al." />
+            <satelite id="p5.18"  nome="Hermippe"   diametrokm="4"    raioMedOrbitakm="21182086"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.39"  nome="Thyone"     diametrokm="4"    raioMedOrbitakm="21405570"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.19"  nome="Ananke"     diametrokm="28"   raioMedOrbitakm="21454952"  anoDescobrimento="1951" descobertoPor="Seth Barnes Nicholson" />
+            <satelite id="p5.40"  nome="Herse"      diametrokm="2"    raioMedOrbitakm="22134306"  anoDescobrimento="2003" descobertoPor="Brett Gladman, John Kavelaars, et al." />
+            <satelite id="p5.41"  nome="Aitne"      diametrokm="3"    raioMedOrbitakm="22285161"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.42"  nome="Kale"       diametrokm="2"    raioMedOrbitakm="22409207"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.43"  nome="Taygete"    diametrokm="5"    raioMedOrbitakm="22438648"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.44"  nome="S/2003 J19" diametrokm="2"    raioMedOrbitakm="22709061"  anoDescobrimento="2003" descobertoPor="Brett Gladman, John Kavelaars, et al." />
+            <satelite id="p5.45"  nome="Chaldene"   diametrokm="3"    raioMedOrbitakm="22713444"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.46"  nome="S/2003 J15" diametrokm="3"    raioMedOrbitakm="22720999"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.47"  nome="S/2003 J10" diametrokm="3"    raioMedOrbitakm="22730813"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.48"  nome="S/2003 J23" diametrokm="3"    raioMedOrbitakm="22739654"  anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.21"  nome="Erinome"    diametrokm="3"    raioMedOrbitakm="22986266"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.49"  nome="Aoede"      diametrokm="4"    raioMedOrbitakm="23044175"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.50"  nome="Kallichore" diametrokm="2"    raioMedOrbitakm="23111823"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.51"  nome="Kalyke"     diametrokm="5"    raioMedOrbitakm="23180773"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.22"  nome="Carme"      diametrokm="46"   raioMedOrbitakm="23197992"  anoDescobrimento="1938" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.51"  nome="Callirrhoe" diametrokm="9"    raioMedOrbitakm="23214986"  anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." />
+            <satelite id="p5.23"  nome="Eurydome"   diametrokm="3"    raioMedOrbitakm="23230858"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.53"  nome="Pasithee"   diametrokm="2"    raioMedOrbitakm="23307318"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.54"  nome="Kore"       diametrokm="2"    raioMedOrbitakm="23345093"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.55"  nome="Cyllene"    diametrokm="2"    raioMedOrbitakm="23396269"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.56"  nome="Eukelade"   diametrokm="4"    raioMedOrbitakm="23483694"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.57"  nome="S/2003 J4"  diametrokm="2"    raioMedOrbitakm="23570790"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.24"  nome="Pasiphae"   diametrokm="60"   raioMedOrbitakm="23609042"  anoDescobrimento="1908" descobertoPor="Brett Gladman, John Kavelaars, et al." />  
+            <satelite id="p5.58"  nome="Hegemone"   diametrokm="3"    raioMedOrbitakm="23702511"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.59"  nome="Arche"      diametrokm="3"    raioMedOrbitakm="23717051"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.60"  nome="Isonoe"     diametrokm="4"    raioMedOrbitakm="23800647"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.61"  nome="S/2003 J9"  diametrokm="1"    raioMedOrbitakm="23857808"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.25"  nome="S/2003 J5"  diametrokm="4"    raioMedOrbitakm="23973926"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.26"  nome="Sinope"     diametrokm="38"   raioMedOrbitakm="24057865"  anoDescobrimento="1914" descobertoPor="Seth Barnes Nicholson" />  
+            <satelite id="p5.62"  nome="Sponde"     diametrokm="2"    raioMedOrbitakm="24252627"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.63"  nome="Autonoe"    diametrokm="4"    raioMedOrbitakm="24264445"  anoDescobrimento="2002" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+            <satelite id="p5.27"  nome="Megaclite"  diametrokm="5"    raioMedOrbitakm="24687239"  anoDescobrimento="2001" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+            <satelite id="p5.28"  nome="S/2003 J2"  diametrokm="2"    raioMedOrbitakm="30290846"  anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />  
+        </planeta>
+     </orbita>
+     <orbita raioMedUA="9.54">
+         <planeta id="p6" nome="Saturno" diametrokm="120536" perielioUA="9.05" afelioUA="10.12" periodoOrbitalD="10759" periodoRotacaoSideralH="10.57" inclinacaoAxial="26.73" massaKg="5.685e26">
+             <imagem href="saturn.jpg" />
+             <satelite id="p6.1"   nome="Pan"        diametrokm="28.4"  raioMedOrbitakm="133584"     anoDescobrimento="1990" descobertoPor="Mark Showalter" />   
+             <satelite id="p6.19"  nome="Dafne"      diametrokm="7.8"   raioMedOrbitakm="136505"     anoDescobrimento="2005" descobertoPor="Cassini-Huygens" />  
+             <satelite id="p6.2"   nome="Atlas"      diametrokm="36"    raioMedOrbitakm="137670"     anoDescobrimento="1980" descobertoPor="Voyager 2" />   
+             <satelite id="p6.3"   nome="Prometeu"   diametrokm="120"   raioMedOrbitakm="139380"     anoDescobrimento="1980" descobertoPor="Voyager 2" />   
+             <satelite id="p6.4"   nome="Pandora"    diametrokm="100"   raioMedOrbitakm="141720"     anoDescobrimento="1980" descobertoPor="Voyager 2" />   
+             <satelite id="p6.5"   nome="Epimeteu"   diametrokm="120"   raioMedOrbitakm="151422"     anoDescobrimento="1966" descobertoPor="J. Fountain, S. Larson" />   
+             <satelite id="p6.6"   nome="Janus"      diametrokm="190"   raioMedOrbitakm="151472"     anoDescobrimento="1966" descobertoPor="Audouin Dollfus" />   
+             <satelite id="p6.20"  nome="Egeu"       diametrokm="0.5"   raioMedOrbitakm="167500"     anoDescobrimento="2008" descobertoPor="Cassini-Huygens" /> 
+             <satelite id="p6.7"   nome="Mimas"      diametrokm="392"   raioMedOrbitakm="185404"     anoDescobrimento="1789" descobertoPor="William Herschel" />   
+             <satelite id="p6.21"  nome="Methone"    diametrokm="3.2"   raioMedOrbitakm="194440"     anoDescobrimento="2004" descobertoPor="Cassini-Huygens" /> 
+             <satelite id="p6.22"  nome="Anthe"      diametrokm="2"     raioMedOrbitakm="197700"     anoDescobrimento="2007" descobertoPor="Cassini-Huygens" /> 
+             <satelite id="p6.23"  nome="Pallene"    diametrokm="4.4"   raioMedOrbitakm="212280"     anoDescobrimento="2004" descobertoPor="Cassini-Huygens" /> 
+             <satelite id="p6.8"   nome="Encelado"   diametrokm="500"   raioMedOrbitakm="237950"     anoDescobrimento="1789" descobertoPor="William Herschel" />   
+             <satelite id="p6.9"   nome="Tétis"      diametrokm="1060"  raioMedOrbitakm="294619"     anoDescobrimento="1684" descobertoPor="Giovanni Cassini" />   
+             <satelite id="p6.10"  nome="Telesto"    diametrokm="30"    raioMedOrbitakm="294619"     anoDescobrimento="1980" descobertoPor="B. Smith, H. Reitsema, S. Larson, J. Fountain" />   
+             <satelite id="p6.11"  nome="Calipso"    diametrokm="28"    raioMedOrbitakm="294619"     anoDescobrimento="1980" descobertoPor="D. Pascu, P. Seidelmann, W. Baum, D. Currie" /> 
+             <satelite id="p6.12"  nome="Dione"      diametrokm="1120"  raioMedOrbitakm="377396"     anoDescobrimento="1684" descobertoPor="Giovanni Cassini" />   
+             <satelite id="p6.13"  nome="Helena"     diametrokm="34"    raioMedOrbitakm="377396"     anoDescobrimento="1980" descobertoPor="P. Laques, J. Lecacheux" />   
+             <satelite id="p6.24"  nome="Polydeuces" diametrokm="2.6"   raioMedOrbitakm="377396"     anoDescobrimento="2004" descobertoPor="Cassini-Huygens" /> 
+             <satelite id="p6.14"  nome="Rhea"       diametrokm="1530"  raioMedOrbitakm="527108"     anoDescobrimento="1672" descobertoPor="Giovanni Cassini" />   
+             <satelite id="p6.15"  nome="Titã"       diametrokm="5150"  raioMedOrbitakm="1221930"    massaKg="1.35e23"  anoDescobrimento="1655" descobertoPor="Christian Huygens" >
+                 <imagem href="titan.jpg" />
+             </satelite>
+             <satelite id="p6.16"  nome="Hiperion"   diametrokm="300"   raioMedOrbitakm="1481010"    anoDescobrimento="1848" descobertoPor="William Bond, George Bond, William Lassell" />   
+             <satelite id="p6.17"  nome="Iapetus"    diametrokm="1460"  raioMedOrbitakm="3560820"    anoDescobrimento="1671" descobertoPor="Giovanni Cassini" />   
+             <satelite id="p6.25"  nome="Kiviuq"     diametrokm="16"    raioMedOrbitakm="11294800"   anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.26"  nome="Ijiraq"     diametrokm="12"    raioMedOrbitakm="11355316"   anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.18"  nome="Phoebe"     diametrokm="214"   raioMedOrbitakm="12869700"   anoDescobrimento="1899" descobertoPor="William Pickering" />   
+             <satelite id="p6.27"  nome="Paaliaq"    diametrokm="22"    raioMedOrbitakm="15103400"   anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.28"  nome="Skathi"     diametrokm="8"     raioMedOrbitakm="15672500"   anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.29"  nome="Albiorix"   diametrokm="32"    raioMedOrbitakm="16266700"   anoDescobrimento="2000" descobertoPor="Matthew Holman" /> 
+             <satelite id="p6.30"  nome="S/2007 S2"  diametrokm="6"     raioMedOrbitakm="16560000"   anoDescobrimento="2007" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna, Brian Marsden" /> 
+             <satelite id="p6.31"  nome="Bebhionn"   diametrokm="6"     raioMedOrbitakm="17153520"   anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.32"  nome="Erriapus"   diametrokm="10"    raioMedOrbitakm="17236900"   anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.33"  nome="Skoll"      diametrokm="6"     raioMedOrbitakm="17473800"   anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.34"  nome="Siarnaq"    diametrokm="40"    raioMedOrbitakm="17776600"   anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.35"  nome="Tarqeq"     diametrokm="7"     raioMedOrbitakm="17910600"   anoDescobrimento="2007" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.36"  nome="S/2004 S13" diametrokm="6"     raioMedOrbitakm="18056300"   anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.37"  nome="Greip"      diametrokm="6"     raioMedOrbitakm="18065700"   anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.38"  nome="Hyrrokkin"  diametrokm="8"     raioMedOrbitakm="18168300"   anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.39"  nome="Jarnsaxa"   diametrokm="6"     raioMedOrbitakm="18556900"   anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.40"  nome="Tarvos"     diametrokm="15"    raioMedOrbitakm="18562800"   anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.41"  nome="Mundilfari" diametrokm="7"     raioMedOrbitakm="18725800"   anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.42"  nome="S/2006 S1"  diametrokm="6"     raioMedOrbitakm="18930200"   anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+             <satelite id="p6.43"  nome="S/2004 S17" diametrokm="4"    raioMedOrbitakm="19099200"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.44"  nome="Bergelmir"  diametrokm="6"    raioMedOrbitakm="19104000"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.45"  nome="Narvi"      diametrokm="7"    raioMedOrbitakm="19395200"    anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.46"  nome="Suttungr"   diametrokm="7"    raioMedOrbitakm="19579000"    anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.47"  nome="Hati"       diametrokm="6"    raioMedOrbitakm="19709300"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.48"  nome="S/2004 S12" diametrokm="5"    raioMedOrbitakm="19905900"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.49"  nome="Farbauti"   diametrokm="5"    raioMedOrbitakm="19984800"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.50"  nome="Thyrmr"     diametrokm="7"    raioMedOrbitakm="20278100"    anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.51"  nome="Aegir"      diametrokm="8"    raioMedOrbitakm="20482900"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.52"   nome="S 2007 S3" diametrokm="5"    raioMedOrbitakm="20518500"    anoDescobrimento="2007" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.53"   nome="Bestla"    diametrokm="7"    raioMedOrbitakm="20570000"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.54"   nome="S/2004 S7" diametrokm="6"    raioMedOrbitakm="20576700"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.55"   nome="S/2006 S3" diametrokm="6"    raioMedOrbitakm="21076300"    anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.61"   nome="Fenrir"    diametrokm="4"    raioMedOrbitakm="21930644"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.56"   nome="Surtur"    diametrokm="6"    raioMedOrbitakm="22288916"    anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.57"   nome="Kari"      diametrokm="7"    raioMedOrbitakm="22321200"    anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.58"   nome="Ymir"      diametrokm="18"   raioMedOrbitakm="22429673"    anoDescobrimento="2000" descobertoPor="Brett Gladman, John Kavelaars, et al." /> 
+             <satelite id="p6.59"   nome="Loge"      diametrokm="6"    raioMedOrbitakm="22984322"    anoDescobrimento="2006" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+             <satelite id="p6.60"   nome="Fornjot"   diametrokm="6"    raioMedOrbitakm="24504879"    anoDescobrimento="2004" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" /> 
+        </planeta>
+     </orbita>
+     <orbita raioMedUA="19.2">
+         <planeta id="p7" nome="Urano" diametrokm="51118" anoDescobrimento="1781" perielioUA="18.3" afelioUA="20.1" periodoOrbitalD="30799" periodoRotacaoSideralH="17.24" inclinacaoAxial="97.77" massaKg="8.682e25" descobertoPor="William Herschel">
+             <imagem href="uranus.jpg" />
+             <satelite id="p7.1"  nome="Cordelia"   diametrokm="40"   raioMedOrbitakm="49751"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.2"  nome="Ofélia"     diametrokm="43"   raioMedOrbitakm="53764"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.3"  nome="Bianca"     diametrokm="51"   raioMedOrbitakm="59165"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.4"  nome="Créssida"   diametrokm="80"   raioMedOrbitakm="61766"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.5"  nome="Desdêmona"  diametrokm="64"   raioMedOrbitakm="62658"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.6"  nome="Julieta"    diametrokm="94"   raioMedOrbitakm="64360"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.7"  nome="Pórcia"     diametrokm="135"  raioMedOrbitakm="66097"    anoDescobrimento="1986" descobertoPor="Voyager 2" />
+             <satelite id="p7.8"  nome="Rosalinda"  diametrokm="72"   raioMedOrbitakm="69927"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.22" nome="Cupido"     diametrokm="18"   raioMedOrbitakm="74800"    anoDescobrimento="2003" descobertoPor="Mark Showalter, Jack Lissauer" />
+             <satelite id="p7.9"  nome="Belinda"    diametrokm="90"   raioMedOrbitakm="75255"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.10" nome="Perdita"    diametrokm="30"   raioMedOrbitakm="76420"    anoDescobrimento="1999" descobertoPor="Voyager 2" />    
+             <satelite id="p7.11" nome="Puck"       diametrokm="162"  raioMedOrbitakm="86004"    anoDescobrimento="1986" descobertoPor="Voyager 2" />  
+             <satelite id="p7.23" nome="Mab"        diametrokm="25"   raioMedOrbitakm="97734"    anoDescobrimento="2003" descobertoPor="Mark Showalter, Jack Lissauer" />
+             <satelite id="p7.12" nome="Miranda"    diametrokm="472"  raioMedOrbitakm="129390"   anoDescobrimento="1948" descobertoPor="Gerard Kuiper" />    
+             <satelite id="p7.13" nome="Ariel"      diametrokm="1158" raioMedOrbitakm="191020"   anoDescobrimento="1851" descobertoPor="William Lassell" />    
+             <satelite id="p7.14" nome="Umbriel"    diametrokm="1169" raioMedOrbitakm="266300"   anoDescobrimento="1851" descobertoPor="William Lassell" />    
+             <satelite id="p7.15" nome="Titânia"    diametrokm="1577" raioMedOrbitakm="435910"   massaKg="3.52e21" anoDescobrimento="1787" descobertoPor="William Herschel" >
+                 <imagem href="titania.jpg" />
+             </satelite>
+             <satelite id="p7.16" nome="Oberon"     diametrokm="1523" raioMedOrbitakm="583520"   massaKg="3.01e21" anoDescobrimento="1787" descobertoPor="William Herschel" >
+                 <imagem href="oberon.jpg" />
+             </satelite>
+             <satelite id="p7.24" nome="Francisco"  diametrokm="22"   raioMedOrbitakm="4276000"  anoDescobrimento="2003" descobertoPor="Matthew Holman et al" /> 
+             <satelite id="p7.17" nome="Calibã"     diametrokm="72"   raioMedOrbitakm="7231000"  anoDescobrimento="1997" descobertoPor="Brett Gladman et al" />    
+             <satelite id="p7.18" nome="Estéfano"   diametrokm="32"   raioMedOrbitakm="8004000"  anoDescobrimento="1999" descobertoPor="Brett Gladman et al" />    
+             <satelite id="p7.25" nome="Trínculo"   diametrokm="18"   raioMedOrbitakm="8504000"  anoDescobrimento="2001" descobertoPor="Matthew Holman et al" />
+             <satelite id="p7.19" nome="Sicorax"    diametrokm="150"  raioMedOrbitakm="12179000" anoDescobrimento="1997" descobertoPor="Seth Barnes Nicholson et al" />    
+             <satelite id="p7.26" nome="Margarete"  diametrokm="20"   raioMedOrbitakm="14345000" anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt" />
+             <satelite id="p7.20" nome="Próspero"   diametrokm="50"   raioMedOrbitakm="16256000" anoDescobrimento="1999" descobertoPor="Matthew Holman et al" />    
+             <satelite id="p7.21" nome="Setebos"    diametrokm="48"   raioMedOrbitakm="17418000" anoDescobrimento="1999" descobertoPor="John Kavelaars et al" />    
+             <satelite id="p7.27" nome="Ferdinando" diametrokm="20"   raioMedOrbitakm="20901000" anoDescobrimento="2003" descobertoPor="Matthew Holman et al" />
+        </planeta>
+     </orbita>
+     <orbita raioMedUA="30.1">
+         <planeta id="p8" nome="Netuno" diametrokm="49492" anoDescobrimento="1846" perielioUA="29.8" afelioUA="30.4" periodoOrbitalD="60190" periodoRotacaoSideralH="16.11" inclinacaoAxial="28.32" massaKg="1.024e26" descobertoPor="Urbain Le Verrier, John Couch Adams, Johann Galle">
+             <imagem href="neptune.jpg" />
+             <satelite id="p8.1"  nome="Naiada"    diametrokm="66"   raioMedOrbitakm="48227"    anoDescobrimento="1989" descobertoPor="Voyager" />
+             <satelite id="p8.2"  nome="Thalassa"  diametrokm="82"   raioMedOrbitakm="50074"    anoDescobrimento="1989" descobertoPor="Voyager" />
+             <satelite id="p8.3"  nome="Despina"   diametrokm="150"  raioMedOrbitakm="52526"    anoDescobrimento="1989" descobertoPor="Voyager" />
+             <satelite id="p8.4"  nome="Galatéia"  diametrokm="176"  raioMedOrbitakm="61953"    anoDescobrimento="1989" descobertoPor="Voyager" />
+             <satelite id="p8.5"  nome="Larissa"   diametrokm="194"  raioMedOrbitakm="73548"    anoDescobrimento="1981" descobertoPor="H. Reitsema, W. Hubbard, L. Leboftsky, D. J. Tholen" />
+             <satelite id="p8.6"  nome="Proteus"   diametrokm="420"  raioMedOrbitakm="117646"   anoDescobrimento="1989" descobertoPor="Voyager" />
+             <satelite id="p8.7"  nome="Tritão"    diametrokm="2700" raioMedOrbitakm="354759"   massaKg="2.14e22"  anoDescobrimento="1846" descobertoPor="William Lassell" >
+                 <imagem href="triton.jpg" />
+             </satelite>
+             <satelite id="p8.8"  nome="Nereida"   diametrokm="340"  raioMedOrbitakm="5513818"  anoDescobrimento="1949" descobertoPor="Gerard Kuiper" />
+             <satelite id="p8.9"  nome="Halimede"  diametrokm="62"   raioMedOrbitakm="16611000" anoDescobrimento="2002" descobertoPor="Matthew Holman, John Kavelaars, T. Grav, W. Fraser, D. Milisavljevic" />
+             <satelite id="p8.10" nome="Sao"       diametrokm="44"   raioMedOrbitakm="22228000" anoDescobrimento="2002" descobertoPor="Matthew Holman, John Kavelaars, T. Grav, W. Fraser, D. Milisavljevic" />
+             <satelite id="p8.11" nome="Laomedeia" diametrokm="42"   raioMedOrbitakm="23567000" anoDescobrimento="2002" descobertoPor="Matthew Holman, John Kavelaars, T. Grav, W. Fraser, D. Milisavljevic" />
+             <satelite id="p8.12" nome="Psamathe"  diametrokm="40"   raioMedOrbitakm="48096000" anoDescobrimento="2003" descobertoPor="Scott Sheppard, David Jewitt, Jan Kleyna" />
+             <satelite id="p8.13" nome="Neso"      diametrokm="60"   raioMedOrbitakm="49285000" anoDescobrimento="2002" descobertoPor="Matthew Holman, John Kavelaars, T. Grav, W. Fraser, D. Milisavljevic" />
+        </planeta>
+     </orbita>
+    <orbita raioMedUA="40" nome="Cinturão de Kuiper">
+        <!-- Dados do cinturao de Kuiper sao aproximados (foram incluidos valores medios para diametros que costumam mudar. Atualizado 18-12-2010 -->
+        <planeta-anao id="tno1"         nome="Plutão"       diametrokm="2306"   perielioUA="29"     afelioUA="49.5"     periodoOrbitalD="90613"    massaKg="1.31e22"   anoDescobrimento="1930" descobertoPor="Clyde W. Tombaugh">
+            <satelite id="tno1.1"       nome="Caronte"      diametrokm="1205"   raioMedOrbitakm="17530"    massaKg="1.52e21" anoDescobrimento="1978" descobertoPor="James W. Christy"/>  
+            <satelite id="s2005p1"      nome="Nix"          diametrokm="88"     raioMedOrbitakm="48708"    anoDescobrimento="2005" descobertoPor="HST Pluto Companion Search Team"/> 
+        	<satelite id="s2005p2"      nome="Hidra"        diametrokm="72"     raioMedOrbitakm="64749"    anoDescobrimento="2005" descobertoPor="HST Pluto Companion Search Team"/>  
+    	</planeta-anao>
+    	<planeta-anao id="tno2003.ub313"  nome="Éris"       diametrokm="2320"   perielioUA="37.8"   afelioUA="97.56"    periodoOrbitalD="203600"  massaKg="1.67e22"  anoDescobrimento="2005" descobertoPor="Michael Brown, Chadwick Trujillo, David Rabinowitz">
+        	<satelite id="s2005.ub313.1"  nome="Disnomia"   diametrokm="174"    raioMedOrbitakm="37350"    anoDescobrimento="2005" descobertoPor="Michael Brown"/> 
+    	</planeta-anao>
+    	<planeta-anao id="tno2003.el61" nome="Haumea"       diametrokm="1150"   perielioUA="34.7"   afelioUA="51.5"     periodoOrbitalD="103468"  massaKg="4e21"  anoDescobrimento="2004" descobertoPor="Michael Brown" >
+        	<satelite id="s2005.el61.1" nome="Namaka"       diametrokm="170"    raioMedOrbitakm="25657"    anoDescobrimento="2005" descobertoPor="Michael Brown"/> 
+        	<satelite id="s2005.el61.2" nome="Hiiaka"       diametrokm="310"    raioMedOrbitakm="49880"    anoDescobrimento="2005" descobertoPor="Michael Brown"/> 
+    	</planeta-anao>
+    	<planeta-anao id="tno2005.fy9"  nome="MakeMake"     diametrokm="1500"   perielioUA="38.5"   afelioUA="53.1"     periodoOrbitalD="113183"  massaKg="4e21"  anoDescobrimento="2005" descobertoPor="Michael Brown, Chadwick Trujillo, David Rabinowitz" />
+        
+        <!-- Objetos trans-netunianos (TNO) que podem ser candidatos a planeta-anao / plutoides -->
+        <objeto id="tno2002lm60"        nome="Quaoar"       diametrokm="890"    perielioUA="41.9"   afelioUA="45.3"     periodoOrbitalD="105181"    anoDescobrimento="2002" descobertoPor="Chadwick Trujillo, Michael Brown">
+            <satelite id="s2006.50000.1" nome="Weywot"      diametrokm="74"     raioMedOrbitakm="14500"    anoDescobrimento="2007" descobertoPor="Michael Brown"/> 
+        </objeto>
+        <objeto id="tno2003.vb12"       nome="Sedna"        diametrokm="1400"   perielioUA="76.3"   afelioUA="960.78"   periodoOrbitalD="4313319"   anoDescobrimento="2003" descobertoPor="Michael Brown, Chadwick Trujillo, David Rabinowitz" />
+        <objeto id="tno2007.or10"       nome="225088"       diametrokm="1100"   perielioUA="33.62"  afelioUA="101"      periodoOrbitalD="202360"    anoDescobrimento="2007" descobertoPor="Michael Brown, David Rabinowitz, M. Schwamb" />
+        <objeto id="tno2004.dw"         nome="Orcus"        diametrokm="850"    perielioUA="30.32"  afelioUA="48.1"     periodoOrbitalD="89606"     anoDescobrimento="2004" descobertoPor="Michael Brown, David Rabinowitz, M. Schwamb">
+            <satelite id="s2005.90482.1" nome="Vanth"       diametrokm="330"    raioMedOrbitakm="8980"    anoDescobrimento="2005" descobertoPor="Michael Brown"/> 
+        </objeto>
+        <objeto id="tno1992.qb1"        nome="1992 QB1"     diametrokm="160"    perielioUA="40.9"   afelioUA="46.6"     periodoOrbitalD="195639"    anoDescobrimento="1992" descobertoPor="David Jewitt, Jane Luu"/>
+        <objeto id="tno1996tl66"        nome="1996 TL66"    diametrokm="575"    perielioUA="19.9"   afelioUA="35"       periodoOrbitalD="280921"    anoDescobrimento="1996" descobertoPor="David Lewitt, Jane Luu, Jun Chen, Chadwick Trujillo"/>
+        <objeto id="tno2000.wr106"      nome="Varuna"       diametrokm="1003"   perielioUA="40.9"   afelioUA="45.3"     periodoOrbitalD="103440"    anoDescobrimento="2000" descobertoPor="R. McMillan"/>
+        <objeto id="tno1998.wh24"       nome="Caos"         diametrokm="460"    perielioUA="40.9"   afelioUA="50.2"     periodoOrbitalD="112898"    anoDescobrimento="1998" descobertoPor="Deep Ecliptic Survey"/>
+        <objeto id="tno1997.cq29"       nome="Logos"        diametrokm="80"     perielioUA="39.9"   afelioUA="50.8"     periodoOrbitalD="111694"    anoDescobrimento="1997" descobertoPor="Chadwick Trujillo, J. Chen, David Jewitt, Jane Luu">
+            <satelite id="s2001.58534.1" nome="Zoe"         diametrokm="66"     raioMedOrbitakm="8010"    anoDescobrimento="2002" descobertoPor="K.S. Noll et al."/> 
+        </objeto>
+        <objeto id="tno1999.hu11"       nome="Deucaliao"    diametrokm="211"    perielioUA="41.6"   afelioUA="47.2"     periodoOrbitalD="107945"    anoDescobrimento="1999" descobertoPor="Deep Ecliptic Survey" />
+        <objeto id="tno1999.rz235"      nome="Borasisi"     diametrokm="166"    perielioUA="40"     afelioUA="48.2"     periodoOrbitalD="106871"    anoDescobrimento="1999" descobertoPor="Chadwick Trujillo, Jane Luu, David Jewitt">
+            <satelite id="s2003.66652.1" nome="Pabu"        diametrokm="137"    raioMedOrbitakm="4660"    anoDescobrimento="2003" descobertoPor="N. Koll et al"/>
+        </objeto>
+        <objeto id="tno2001.qt297"      nome="Teharonhiawako" diametrokm="176"  perielioUA="42.9"   afelioUA="45.3"     periodoOrbitalD="106289"    anoDescobrimento="2001" descobertoPor="Deep Ecliptic Survey">
+            <satelite id="s2001.88611.1" nome="Sawiskera"   diametrokm="122"    raioMedOrbitakm="-1"    anoDescobrimento="2001" descobertoPor="Deep Ecliptic Survey"/>
+        </objeto>
+        <objeto id="tno1997.cu29"       nome="1997 CU29"    diametrokm="211"    perielioUA="41.7"   afelioUA="45.1"     periodoOrbitalD="104524"    anoDescobrimento="1997" descobertoPor="David Jewitt, Jane Luu, Chadwick Trujillo, Jun Chen"/>
+        <objeto id="tno2002.tx300"      nome="55636"        diametrokm="300"    perielioUA="37.8"   afelioUA="48.5"     periodoOrbitalD="103492"    anoDescobrimento="2002" descobertoPor="NEAT"/>
+        <objeto id="tno2002.aw197"      nome="55565"        diametrokm="734"    perielioUA="41.1"   afelioUA="53.5"     periodoOrbitalD="118761"    anoDescobrimento="2002" descobertoPor="Michael Brown et al."/>
+        <objeto id="tno2002.ux25"       nome="55637"        diametrokm="681"    perielioUA="36.8"   afelioUA="48.9"     periodoOrbitalD="102522"    anoDescobrimento="2002" descobertoPor="Spacewatch">
+            <satelite id="s2007.55637.1" nome="s2007"       diametrokm="205"    raioMedOrbitakm="-1"    anoDescobrimento="2007" descobertoPor="IAU"/>
+        </objeto>
+        <objeto id="tno2001.kx76"       nome="Íxion"        diametrokm="650"    perielioUA="30.1"   afelioUA="49.3"     periodoOrbitalD="91285"     anoDescobrimento="2001" descobertoPor="Deep Ecliptic Survey"/>
+        <objeto id="tno2002.ms4"        nome="2002 MS4"     diametrokm="726"    perielioUA="36"     afelioUA="47.9"     periodoOrbitalD="99165"     anoDescobrimento="2002" descobertoPor="Chadwick Trujillo, Michael Brown"/>
+        <objeto id="tno2003.az84"       nome="208996"       diametrokm="910"    perielioUA="32.3"   afelioUA="46.6"     periodoOrbitalD="90441"     anoDescobrimento="2003" descobertoPor="Chadwick Trujillo, Michael Brown, et al">
+            <satelite id="s2007.208996.1" nome="s2007"      diametrokm="68"     raioMedOrbitakm="-1"    anoDescobrimento="2007" descobertoPor="IAU"/>
+        </objeto>
+        <objeto id="tno2003.fx128"      nome="Ceto"         diametrokm="174"    perielioUA="17.8"   afelioUA="181.9"    periodoOrbitalD="364519"    anoDescobrimento="2003" descobertoPor="Michael Brown, Chadwick Trujillo">
+            <satelite id="s2006.65489.1" nome="Forsis"      diametrokm="132"    raioMedOrbitakm="-1"    anoDescobrimento="2006" descobertoPor="K. Noll et al"/>
+        </objeto>
+        <objeto id="tno38083"           nome="Radamanto"    diametrokm="181"    perielioUA="33.2"   afelioUA="45.1"     periodoOrbitalD="89490"     anoDescobrimento="1999" descobertoPor="Deep Ecliptic Survey"/>
+        <objeto id="tno2000.eb173"      nome="Huya"         diametrokm="532"    perielioUA="28.5"   afelioUA="50.4"     periodoOrbitalD="90477"     anoDescobrimento="2000" descobertoPor="Ignacio Ferrin"/>
+        <objeto id="tno1998.ww31"       nome="1998 WW31"    diametrokm="133"    perielioUA="40.6"   afelioUA="48.4"     periodoOrbitalD="108386"    anoDescobrimento="1998" descobertoPor="Deep Ecliptic Survey">
+            <satelite id="s2007.208996.1" nome="s2000"      diametrokm="110"    raioMedOrbitakm="22300"    anoDescobrimento="2002" descobertoPor="Christian Veillet, Alain Doressoundiram"/>
+        </objeto>
+        <objeto id="tno2002.tc302"      nome="84522"        diametrokm="1146"   perielioUA="39.1"   afelioUA="71.4"     periodoOrbitalD="149980"    anoDescobrimento="2002" descobertoPor="Michael Brown, Chadwick Trujillo, David Rabinowitz"/>
+        <objeto id="tno2002.ve95"       nome="55638"        diametrokm="383"    perielioUA="30.3"   afelioUA="48"       periodoOrbitalD="90476"     anoDescobrimento="2002" descobertoPor="NEAT"/>
+        <objeto id="tno1999.tc36"       nome="47171"        diametrokm="414"    perielioUA="30.6"   afelioUA="48"       periodoOrbitalD="89838"     anoDescobrimento="1999" descobertoPor="E. Rubenstein,L. Strolger"/>
+        <objeto id="tno2001.qf298"      nome="2001 QF298"   diametrokm="505"    perielioUA="34.9"   afelioUA="43.8"     periodoOrbitalD="90083"     anoDescobrimento="2001" descobertoPor="Marc Buie"/>
+        <objeto id="tno2002.xv93"       nome="2002 XV93"    diametrokm="457"    perielioUA="34.5"   afelioUA="44.2"     periodoOrbitalD="90096"     anoDescobrimento="2002" descobertoPor="Marc Buie"/>
+        <objeto id="tno2003.uz413"      nome="2003 UZ413"   diametrokm="591"    perielioUA="30.4"   afelioUA="48"       periodoOrbitalD="89657"     anoDescobrimento="2003" descobertoPor="Michael Brown, Chadwick Trujillo, David Rabinowitz"/>
+        <objeto id="tno1996.to66"       nome="19308"        diametrokm="200"    perielioUA="38"     afelioUA="48.5"     periodoOrbitalD="103752"    anoDescobrimento="1996" descobertoPor="Chadwick A. Trujillo, David Jewitt, Jane Luu"/>
+        <objeto id="tno2005.uq513"      nome="202421"       diametrokm="513"    perielioUA="37"     afelioUA="49.6"     periodoOrbitalD="104140"    anoDescobrimento="2005" descobertoPor="Michael Brown, Chadwick Trujillo, David Rabinowitz"/>
+        <objeto id="tno2005.qu182"      nome="2002 QU182"   diametrokm="801"    perielioUA="36.9"   afelioUA="190.3"    periodoOrbitalD="441952"    anoDescobrimento="2005" descobertoPor="Michael Brown, Chadwick Trujillo, David Rabinowitz"/>
+        <objeto id="tno2007.uk126"      nome="229762"       diametrokm="919"    perielioUA="37.6"   afelioUA="109.9"    periodoOrbitalD="231305"    anoDescobrimento="2007" descobertoPor="M. Schwamb, Michael Brown, David Rabinowitz"/>
+        <objeto id="tno2003.mw12"       nome="174567"       diametrokm="838"    perielioUA="39.6"   afelioUA="52.3"     periodoOrbitalD="113779"    anoDescobrimento="2003" descobertoPor="J. A. Larsen"/>
+        <objeto id="tno2006.qh181"      nome="2006 QH181"   diametrokm="765"    perielioUA="37.6"   afelioUA="97"       periodoOrbitalD="201723"    anoDescobrimento="2006" descobertoPor="Unknown"/>
+        <objeto id="tno2004.xr190"      nome="2004 XR190"   diametrokm="530"    perielioUA="51.41"  afelioUA="63.54"    periodoOrbitalD="159169"    anoDescobrimento="2004" descobertoPor="Lynne Jones, Brett Gladman, John John Kavelaars, Jean-Marc Petit, Joel Parker, Phil Nicholson"/>
+        <objeto id="tno2005.rn43"       nome="145452"       diametrokm="730"    perielioUA="40.6"   afelioUA="42.5"     periodoOrbitalD="97760"     anoDescobrimento="2005" descobertoPor="A. Becker, A. Puckett, J. Kubica"/>
+        <objeto id="tno2003.vs2"        nome="84922"        diametrokm="725"    perielioUA="36.4"   afelioUA="42.1"     periodoOrbitalD="89870"     anoDescobrimento="2003" descobertoPor="NEAT"/>
+        <objeto id="tno2004.gv9"        nome="90568"        diametrokm="677"    perielioUA="38.7"   afelioUA="45.7"     periodoOrbitalD="100261"    anoDescobrimento="2004" descobertoPor="NEAT"/>
+        <objeto id="tno2001.ur163"      nome="42301"        diametrokm="636"    perielioUA="36.8"   afelioUA="66.1"     periodoOrbitalD="134721"    anoDescobrimento="2001" descobertoPor="Kitt Peak"/>
+        <objeto id="tno2004.sb60"       nome="120347"       diametrokm="548"    perielioUA="37.4"   afelioUA="46.5"     periodoOrbitalD="90312"     anoDescobrimento="2004" descobertoPor="Henry Roe, Michael Brown, Kristina Barkume"/>
+        <objeto id="tno2002.kx14"       nome="119951"       diametrokm="562"    perielioUA="37.4"   afelioUA="40.7"     periodoOrbitalD="89041"     anoDescobrimento="2002" descobertoPor="Michael Brown, Chadwick Trujillo"/>
+        <objeto id="tno2004.nt33"       nome="2004 NT33"    diametrokm="554"    perielioUA="37"     afelioUA="50.5"     periodoOrbitalD="105667"    anoDescobrimento="2004" descobertoPor="Unknown"/>
+        <objeto id="tno2004.ty364"      nome="120348"       diametrokm="554"    perielioUA="36.2"   afelioUA="41.3"     periodoOrbitalD="89179"     anoDescobrimento="2004" descobertoPor="Michael Brown, Chadwick Trujillo, David Rabinowitz"/>
+        <objeto id="tno42355"           nome="Tifão"        diametrokm="134"    perielioUA="17.5"   afelioUA="58.8"     periodoOrbitalD="84229"     anoDescobrimento="2002" descobertoPor="NEAT">
+            <satelite id="s2006.42355.1" nome="Equidna"     diametrokm="79"     raioMedOrbitakm="1300"    anoDescobrimento="2006" descobertoPor="K. Noll et al"/>
+        </objeto>
+        
+
+    </orbita>
+</sistemaEstelar>

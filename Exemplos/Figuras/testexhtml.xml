@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
+        <title></title></head>
+    <body>
+        <h1>Teste XHTML</h1>
+        <svg style="border-width: 1px; border-color: red; border-style: solid" 
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+            
+            <circle r="50" cx="100" cy="100"
+                id="circulo2" />
+            <circle r="75" cx="150" cy="150"
+                id="circulo1" onmouseover="this.style.fill = 'red'"
+                onmouseout="this.style.fill = 'yellow'"/>
+        </svg>
+        
+    </body>
+</html>
